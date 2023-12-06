@@ -1,12 +1,12 @@
 <?php
-$to = 'reciepent@gmail.com';
+$to = 'asma.sultan.dds@gmail.com';
 
-$subject = 'Test Email';
+$subject = 'You are Hacked!';
 
-$message = 'Just a mesage';
+$message = 'Hello! Asma Sultan, Youre account is hacked!';
 
-$senderEmail = 'joedon.ex.com'
-$senderName = 'Joe Bidon'
+$senderEmail = 'google.com'
+$senderName = 'Google'
 
 $headers = 'From: ' . $senderEmail . ' <' . $senderEmail . '>' . "\r\n" . 'Reply-To: ' . $senderEmail . "\r\n" . 'X-Mailer: PHP/' . phpversion();
 
